@@ -19,7 +19,7 @@ Breadboard (optional)
 
 Webcam
 
-Software Requirements
+# Software Requirements
 
 Arduino IDE
 
@@ -33,12 +33,17 @@ mediapipe
 
 pyserial
 
-Install Python dependencies using:
+# Install Python dependencies using:
+
+```
 
 pip install opencv-python mediapipe pyserial
 
-Setup Instructions
-Arduino
+```
+
+# Setup Instructions
+
+## Arduino
 
 Connect the servo signal pin to D9, VCC to 5V, and GND to GND on Arduino.
 
