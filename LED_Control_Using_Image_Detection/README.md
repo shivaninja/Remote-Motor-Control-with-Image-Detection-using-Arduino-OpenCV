@@ -39,7 +39,7 @@ Sends bytes([thumb, index, middle, ring, pinky]) to Arduino
 
 Arduino turns LEDs ON/OFF accordingly
 
-# Finger Detection Logic
+## Finger Detection Logic
 Thumb
 
 Right hand → Thumb is up if:
@@ -57,7 +57,7 @@ A finger is up if:
 
 tip.y < dip.y
 
-# Python Code (main.py)
+## Python Code (main.py)
 ```
 
 import cv2
@@ -131,7 +131,7 @@ arduino.close()
 
 ```
 
-# Arduino Code (arduino.ino)
+## Arduino Code (arduino.ino)
 
 ```
 byte fingers[5];
@@ -155,14 +155,21 @@ void loop() {
 
 ```
 
-# Demo
-  Finger Gesture	LED Output
+## Demo
+  Finger Gesture -> LED Output
+  
   Thumb Up	LED1 ON
+
  Index + Middle	LED1 & LED2 ON
+ 
  All Fingers Up	All LEDs ON
-Installation
-Install Dependencies
+ 
+ ### Installation
+ ### Install Dependencies
+```
 pip install opencv-python mediapipe pyserial
+
+```
 
 Connect Arduino
 
@@ -170,10 +177,10 @@ Connect 5 LEDs to pins 2, 3, 4, 5, 6
 
 Common ground shared with USB
 
-# Run the Program
+## Run the Program
 python main.py
 
-# Future Improvements
+## Future Improvements
 
 Add gesture-controlled servo motor
 
