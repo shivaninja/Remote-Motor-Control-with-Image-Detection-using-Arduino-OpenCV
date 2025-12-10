@@ -1,3 +1,5 @@
+# Project 2. LED-Control-with-Image-Detection using Arduino , OpenCV, MediaPipe and Pyserial
+
 # Hand Gesture Controlled LED using OpenCV, MediaPipe & Arduino
 
 Control LEDs connected to an Arduino using hand gestures detected through OpenCV and MediaPipe.
